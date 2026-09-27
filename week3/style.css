@@ -1,0 +1,285 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/sao-login.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.register-page {
+    background-image: url("images/sao-register3.jpeg");
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form {
+    background: rgba(5, 15, 35, 0.85);
+    padding: 35px;
+    border-radius: 12px;
+    border: 1px solid rgba(80, 180, 255, 0.8);
+    box-shadow:
+        0 0 15px rgba(0, 150, 255, 0.5),
+        inset 0 0 20px rgba(0, 80, 150, 0.15);
+    backdrop-filter: blur(8px);
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px rgba(80, 180, 255, 0.8);
+}
+
+.login-form > p {
+    text-align: center;
+    color: #b8d9ff;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #d9ecff;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(130, 190, 255, 0.6);
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+}
+
+input::placeholder {
+    color: #a8c0d9;
+}
+
+input:focus {
+    outline: none;
+    border-color: #00bfff;
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #0879c9, #00bfff);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(0, 191, 255, 0.4);
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00bfff, #0879c9);
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.8);
+}
+
+.register-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 8px #00bfff;
+}
+
+@media (max-width: 480px) {
+    .login-form {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body.landing-page {
+    display: block;
+    padding: 0;
+    min-height: 100vh;
+    background: #050b1c;
+    color: white;
+}
+
+.landing-page .container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.landing-page .sao-navbar {
+    background: rgba(3, 10, 30, 0.95);
+    border-bottom: 1px solid #00d9ff;
+}
+
+.landing-page .navbar-brand {
+    color: #00d9ff !important;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.landing-page .nav-link {
+    color: white !important;
+    margin-left: 15px;
+}
+
+.landing-page .nav-link:hover {
+    color: #00d9ff !important;
+}
+
+.landing-page .hero-section {
+    min-height: 80vh;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background:
+        linear-gradient(
+            rgba(3, 8, 25, 0.55),
+            rgba(3, 8, 25, 0.85)
+        ),
+        url("images/sao-register9.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.landing-page .hero-section h1 {
+    color: white;
+    font-size: 64px;
+    text-shadow: 0 0 15px #00d9ff;
+}
+
+.landing-page .hero-section p {
+    color: white;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+.landing-page .btn-primary {
+    background: linear-gradient(90deg, #006eff, #00c6ff);
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 198, 255, 0.5);
+    transition: 0.3s;
+}
+
+.landing-page .btn-primary:hover {
+    background: linear-gradient(90deg, #00c6ff, #006eff);
+    transform: translateY(-2px);
+}
+
+.landing-page .about-section {
+    background: #08132d;
+    color: white;
+}
+
+.landing-page .about-section h2 {
+    color: #00d9ff;
+}
+
+.landing-page .about-section p {
+    color: #d9e8ff;
+    line-height: 1.8;
+}
+
+.landing-page .characters-section {
+    background: #050b1c;
+    color: white;
+}
+
+.landing-page .characters-section h2 {
+    color: #00d9ff;
+}
+
+.landing-page .character-card {
+    width: 100%;
+    min-height: 260px;
+    padding: 10px;
+    background: rgba(10, 28, 60, 0.95);
+    color: white;
+    border: 1px solid #00d9ff;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.landing-page .character-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.5);
+}
+
+.landing-page .character-card h3 {
+    color: #00d9ff;
+}
+
+.landing-page .character-card p {
+    color: #d9e8ff;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .landing-page .hero-section {
+        min-height: 70vh;
+        padding: 70px 20px;
+    }
+
+    .landing-page .hero-section h1 {
+        font-size: 40px;
+    }
+
+    .landing-page .hero-section p {
+        font-size: 16px;
+    }
+
+    .landing-page .about-section {
+        text-align: center;
+    }
+
+    .landing-page .about-section img {
+        margin-top: 20px;
+    }
+
+    .landing-page .nav-link {
+        margin-left: 0;
+    }
+
+    .landing-page .character-card {
+        margin-bottom: 15px;
+    }
+}
+
