@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sword Art Online</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="landing-page">
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark sao-navbar">
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="landing.html">
+                    SAO
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                    aria-controls="navbarMenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#trailer">Trailer</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#characters">Characters</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container text-center">
+
+                <h1 class="display-3 fw-bold">
+                    SWORD ART ONLINE
+                </h1>
+
+                <p class="lead">
+                    Enter the world of Aincrad and discover an unforgettable adventure.
+                </p>
+
+                <a href="#trailer" class="btn btn-primary btn-lg">
+                    Watch Trailer
+                </a>
+
+            </div>
+        </section>
+
+       <!-- Trailer Section -->
+<section id="trailer" class="trailer-section py-5">
+    <div class="container text-center">
+
+        <h2 class="mb-4">
+            Official Trailer
+        </h2>
+
+        <div class="ratio ratio-16x9 trailer-video">
+            <iframe
+                src="https://www.youtube.com/embed/yg5VKHOXSgs"
+                title="Sword Art Online Official Trailer"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+    </div>
+</section>
+        <!-- About Section -->
+        <section id="about" class="about-section py-5">
+            <div class="container">
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-6">
+                        <h2>About Sword Art Online</h2>
+
+                        <p>
+                            Sword Art Online follows Kirito, a player trapped
+                            in a virtual reality game with thousands of players.
+                            They must clear all 100 floors of the game's castle
+                            to escape. If they die in the game, they also die
+                            in real life.
+                        </p>
+
+                        <p>
+                            Players must work together and overcome obstacles
+                            to survive and reach their goals.
+                        </p>
+                    </div>
+
+                    <div class="col-md-6">
+                        <img
+                            src="images/sao-login.jpeg"
+                            alt="Sword Art Online inspired background"
+                            class="img-fluid rounded shadow"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Characters Section -->
+        <section id="characters" class="characters-section py-5">
+            <div class="container">
+
+                <h2 class="text-center mb-4">
+                    My Favorite Characters
+                </h2>
+
+                <div class="row g-4">
+
+                    <!-- Kirito -->
+                    <div class="col-md-4">
+                        <div class="card character-card h-100">
+
+                            <div class="card-body text-center">
+
+                                <img
+                                    src="images/kirito.jpeg"
+                                    class="img-fluid rounded mb-3"
+                                    alt="Kirito"
+                                >
+
+                                <h3 class="card-title">
+                                    Kirito
+                                </h3>
+
+                                <p class="card-text">
+                                    A skilled swordsman known for his courage,
+                                    determination, and strong sense of justice.
+                                </p>
+
+                                <a href="#" class="btn btn-primary">
+                                    Learn More
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Asuna -->
+                    <div class="col-md-4">
+                        <div class="card character-card h-100">
+
+                            <div class="card-body text-center">
+
+                                <img
+                                    src="images/asuna.jpeg"
+                                    class="img-fluid rounded mb-3"
+                                    alt="Asuna"
+                                >
+
+                                <h3 class="card-title">
+                                    Asuna
+                                </h3>
+
+                                <p class="card-text">
+                                    A powerful fighter and dependable partner
+                                    who shows bravery and leadership.
+                                </p>
+
+                                <a href="#" class="btn btn-primary">
+                                    Learn More
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Sinon -->
+                    <div class="col-md-4">
+                        <div class="card character-card h-100">
+
+                            <div class="card-body text-center">
+
+                                <img
+                                    src="images/sinon.png"
+                                    class="img-fluid rounded mb-3"
+                                    alt="Sinon"
+                                >
+
+                                <h3 class="card-title">
+                                    Sinon
+                                </h3>
+
+                                <p class="card-text">
+                                    A talented long-range fighter with excellent
+                                    focus, accuracy, and determination.
+                                </p>
+
+                                <a href="#" class="btn btn-primary">
+                                    Learn More
+                                </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>
